@@ -1,0 +1,228 @@
+		body {
+			background: rgba(51,51,51,1);
+			color: #EEF0EF;
+		}
+		nav {
+			text-align: right;
+			background: rgba(0,0,0,1);
+			background: -webkit-linear-gradient(bottom, rgba(0,0,0,1),rgba(0,0,0,.3));
+			top: 0;
+			padding: 10px 0 18px 0px;
+			position: sticky;
+		}
+		ul {
+			padding: 10px;
+		}
+		li {
+			display: inline;
+			padding: 15px;
+			margin: 8px 12px 0 12px;
+			border: 1px solid #fff;
+			background: #000;
+		}
+		a {
+			color: #EEF0EF;
+			text-decoration: none;
+			font-family: 'Overpass', sans-serif;
+
+		}
+		h1 {
+			font-family: 'Archivo', sans-serif;
+			font-size: 150px;
+			line-height: 240px;
+			margin-bottom: 130px;
+		}
+		h2 {
+			font-family: 'Archivo', sans-serif;
+			text-decoration: underline;
+			text-decoration-color: #AF0000;
+			font-size: 80px;
+			color: #C2A681;
+		}
+		div {
+			line-height: 25px;
+			max-width: 900px;
+			text-align: left;
+			margin: 0 auto;
+		}
+		img {
+			float: right;
+			margin: 0 15px 0 0; 
+			height: 450px;
+			border-radius: 18px;
+			border-right: 5px solid #EEF0EF;
+			border-bottom: 5px solid #EEF0EF;
+		}
+		p {
+			font-family: 'Overpass', sans-serif;
+			font-size: 20px;
+			line-height: 30px;
+		}
+		input {
+			padding: 20px 330px 20px 15px;
+			margin-bottom: 20px;
+		}
+		input[placeholder] {
+			font-size: 15px;
+		}
+		textarea[placeholder] {
+			font-size: 15px;
+		}
+		input[type="submit"] {
+			background-color: #0066C4;
+			font-size: 22px;
+			margin-top: 20px;
+			padding: 18px 30px;
+		}
+		textarea {
+			padding: 40px 330px 40px 15px;
+		}
+		.hi {
+			font-size: 250px;
+			color: #AF0000;
+		}
+		.charlie {
+			color: #C2A681;
+		}
+		.aboutMe {
+			display: block;
+			text-align: right;
+		}
+		.contactLink {
+			background: #AF0000;
+			background: cover;
+			padding: 15px;
+			margin: 0 -18px;
+			border: 1px solid #fff;
+		}
+		.mailImg {
+			height: 2px;
+		}
+		#about {
+			padding: 115px 12px 130px 12px;
+			border-bottom: 2px solid black;
+		}
+		#development {
+			padding: 150px 12px 130px 12px;
+			border-bottom: 2px solid black;
+		}
+		#contact {
+			text-align: center;
+			padding: 150px 12px 0 12px;
+		}
+		@media (max-width: 800px) {
+			nav {
+				position: sticky;
+				text-align: center;
+			}
+			img {
+				float: none;
+				text-align: center;
+				display: block;
+				height: 400px;
+				margin: 50px auto;
+				border: 2px solid #EEF0EF;
+			}
+			header {
+				text-align: center;
+			}
+			h1 {
+				font-size: 80px;
+				line-height: 90px;
+				margin-bottom: 50px;
+			}
+			h2 {
+				font-size: 38px;
+				margin-bottom: 50px;
+			}
+			p {
+				font-size: 18px;
+				line-height: 25px;
+			}
+			input {
+				padding: 15px 150px 15px 15px;
+				margin: 0 auto 20px auto;
+			}
+			input[placeholder] {
+				font-size: 15px;
+			}
+			textarea[placeholder] {
+				font-size: 15px;
+			}
+			input[type="submit"] {
+				background-color: #0066C4;
+				font-size: 22px;
+				margin: 20px 0 -15px 0;
+				padding: 15px 30px;
+			}
+			textarea {
+				padding: 40px 150px 20px 15px;
+			}
+			.hi {
+				font-size: 100px;
+				margin-bottom: 40px;
+			}
+			.aboutMe {
+				display: block;
+				text-align: right;
+			}
+			.contactList {
+				padding: 12px;
+				margin: 20px 0;
+				background: none;
+				border: none;
+				display: block;
+			}
+			#about {
+				padding: 90px 12px 50px 12px;
+				border-bottom: 2px solid black;
+			}
+			#development {
+				padding: 50px 12px 50px 12px;
+				border-bottom: 2px solid black;
+			}
+			#contact {
+				padding: 50px 12px 0 12px;
+			}
+		}
+		@media (max-width: 500px) {
+			nav {
+				position: static;
+				text-align: center;
+				padding: 5px;
+			}
+			ul {
+				padding: 0;
+			}
+			li {
+				display: block;
+			}
+			img {
+				float: none;
+				height: 300px;
+				margin: 50px auto 60px auto;
+				border: 2px solid #EEF0EF;
+			}
+			header {
+				text-align: center;
+			}
+			h1 {
+				font-size: 70px;
+				line-height: 80px;
+				margin-bottom: 50px;
+			}
+			h2 {
+				font-size: 35px;
+				text-align: center;
+			}
+			input[type="submit"] {
+				margin-bottom: 5px;
+			}
+			.hi {
+				font-size: 80px;
+			}
+			.aboutMe {
+				text-align: center;
+			}
+		
+		}

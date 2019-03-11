@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Archivo|Overpass" rel="stylesheet">
+	<title>About Me</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#home" onclick="topFunction()">HOME</a></li>
+			<li><a href="#about">ABOUT ME</a></li>
+			<li><a href="#development">DEVELOPMENT</a></li>
+			<li><a href="#contact">CONTACT ME</a></li>
+		</ul>
+	</nav>
+	<header>
+		<img src="https://i.imgur.com/SyMr1On.jpg?1">
+		<h1><span class="hi">Hi,</span><br /><span class="charlie">I'm Charlie.</span></h1>
+	</header>
+	<div id="about">
+		<h2><span class="aboutMe">About Me</span></h2>
+		<p>
+		So, who is Charlie? Great question.<br /> 
+		</p>
+		<p></p>
+		<p>
+		I grew up in the beautiful state of Vermont in its most populated city, Burlington. As it turns out, I liked it enough to stay for college as well, attending the University of Vermont. I studied English and Political Science. Yes, I know, and here I am interested in web development. So it goes.<br /> 
+		</p>
+		<p></p>
+		<p>
+		I always wanted to move to New York City, but like so many before me, it was difficult. I would sit throughout my teens and wait for the day until I would be able to move here. The day finally came when I graduated college. After traveling through Europe the summer following graduation, much to my parents chagrin, I picked up my one suitcase (yes, one), and moved myself to NYC without knowing anyone. I worked in tech sales at a company called Trustpilot doing business development for about 11 months. I then found my way into a position at Yelp doing sales work as well. And yes, I made 100+ dials every day. After a while I knew it was not what I was supposed to do. I wanted something new, something fresh, something challenging. <br />
+		</p>
+		<p></p>
+		<p>
+		I had done some self-teaching to try and learn how to code twice before, but I kept hitting walls which made it difficult to continue. When I left Yelp, I knew that I had to change something, and that is when General Assembly came into the mix. I realized that I wanted to devote my time and energy to making my dream of becoming a developer a reality. And here I sit, not broken hearted, but excited and ready to work for my future. 
+		</p>
+	</div>
+	<div id="development">
+		<h2>Development</h2>
+		<p>
+		First let’s cover what I’m looking for at General Assembly. I’m looking for the ability to take what I’m learning and put it into practice. I want to build a professional portfolio that showcases my development from a beginner to a job-ready web developer. I am also looking for the resources to help me along the way with my job search.<br />
+		</p> 
+		<p></p>
+		<p>
+		Second I want to cover post General Assembly. I want to move into a Front End Developer or Junior Developer position on a small team for a startup where I have the ability to work with other talented developers. It’s important for me to be on a team with developers of all skill levels so I can be even more motivated to continue my learning and become even more knowledgeable on a variety of skills. 
+		</p>
+	</div>
+	<div id="contact">
+		<h2>Contact Me</h2>
+		<input type="name" placeholder="Your Name"><br />
+		<input type="email" placeholder="Your Email"><br />
+		<textarea type="comment" placeholder="Write your comment here..."></textarea><br />
+		<input type="submit" onclick="submitBtn()">
+		<ul>
+			<li class="contactList"><a href="mailto:sheppard.charlie24@gmail.com" class="contactLink">Mail @ ~ sheppard.charlie24@gmail.com</a></li>
+			<li class="contactList"><a href="tel:+18022384089" class="contactLink">Call @ ~ (802) 238-4089</a></li>
+		</ul>
+	</div>
+<script>
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+	function submitBtn() {
+		alert("Thanks! I'll get back to you ASAP!");
+	}
+</script>
+</body>
+
+
+
+
+
+
+
+
+
